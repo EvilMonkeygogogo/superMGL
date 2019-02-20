@@ -11,7 +11,7 @@
     <!-- 右侧 -->
     <el-container>
       <!-- 右侧头部 -->
-      <el-header>Header</el-header>
+      <el-header><Top></Top></el-header>
 
       <!-- 右侧中间 -->
       <el-main>
@@ -28,9 +28,11 @@
 
 <script>
 import Nav from "@/components/Nav/Nav.vue";
+import Top from "@/components/TOP/top.vue"
 export default {
   components: {
-    Nav
+    Nav,
+    Top
   }
 };
 </script>
